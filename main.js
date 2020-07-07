@@ -5,13 +5,6 @@ body.appendChild(buttonElement)
 console.log(buttonElement)
 
 
-
-// function createElement (tagName, contents = "", attributeWithValue = ['null]']){
-//     const attributeName = attributeWithValue [0] || ""
-//     const attributeValue = attributeWithValue [1] || ""
-//     return `<${tagName} ${attributeName}= "${attributeValue}">${contents}</${tagName}>`
-// }
-
 const main = document.createElement('main')
 body.appendChild(main)
 const imageElement = document.createElement('img')
